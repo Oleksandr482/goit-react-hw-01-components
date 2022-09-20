@@ -25,7 +25,7 @@ padding: 10px 0;
 `
 
 export const TableRow = styled.tr`
-:nth-child(2n) {
+&:nth-of-type(2n) {
     background-color: #F0F3F4;
 }
 `
@@ -34,7 +34,7 @@ export const TableData = styled.td`
 padding: 10px 0;
 border-right: 1px solid #DCE1E2;
 
-:first-child {
+&:first-of-type {
     border-left: 1px solid #DCE1E2;
 }
 `
